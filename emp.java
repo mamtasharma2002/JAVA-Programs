@@ -9,6 +9,6 @@ class emp {
 		obj o1 = new obj();
 		obj o2 = new obj();
 		obj o3 = new obj();
-		System.out.println("the no of objects are" + obj.n);
+		System.out.println("the no of objects are :" +  obj.n);
 	}
 }

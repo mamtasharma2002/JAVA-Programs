@@ -1,6 +1,5 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.lang.Override;
 
 public class Frame_1 extends Frame implements ActionListener{
  Frame frm_1;
@@ -30,7 +29,6 @@ public class Frame_1 extends Frame implements ActionListener{
 
     }
    
-    @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == btn){
             String str = txt_fld.getText();

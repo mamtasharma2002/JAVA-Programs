@@ -1,0 +1,33 @@
+/* element
+li
+
+/*class
+.hello
+
+/*id selector
+#name
+
+/*star
+*{
+  border: 1px solid lightgrey;
+}
+
+/*Descendent selector
+li a{
+colour: red;
+}
+
+/*Adjacent selector
+h4 + ul{
+border: 4px solid red;
+}
+
+/*Attribute selector
+a[href="http://.goggle.com"]{
+background: blue
+}
+
+/*nth of type
+ul:nth-of-type(3){
+background: purple;
+}

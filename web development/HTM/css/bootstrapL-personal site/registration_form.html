@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+
+    <form>
+      <label for="First">First Name:</label>
+      <input id="First "type="text"placeholder="john"required>
+      <input id="Last"type="text" placeholder="smith"required>
+
+    <div>
+      <label for="male">Male</label>
+      <input id="male"type="radio" name="gender" value="male">
+      <label for="female">Female</label>
+      <input id="female"type="radio" name="gender" value="female">
+      <label for="other">other</label>
+      <input id="other"type="radio" name="gender" value="other">
+    </div>
+
+    <div>
+      <label>
+        Email:
+      <input name="email"type="email" placeholder="your email">
+      </label>
+      <label>
+        Password:
+      <input name="password" type="password" name="" value="">
+      </label>
+    </div>
+
+    <div>
+      <label>
+        Birthday:
+      <select name="Month">
+        <option>Month</option>
+        <option>Jan</option>
+        <option>feb</option>
+        <option>mar</option>
+        <option>april</option>
+        <option>May</option>
+        <option>June</option>
+      </select>
+      <select Month="Day">
+        <option>Day</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+      </select>
+      <select Month="Year">
+        <option>Year</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+      </select>
+      </label>
+    </div>
+    <div>
+      <label for="Agreed">I agreed to the terms and conditions </label>
+      <input id="agreed"type="checkbox" name="agreed">
+    </div>
+
+    <input type="submit" name="submit button" value="submit">
+  </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+            var v = parseInt(prompt("Enter a number"));
+            var temp = v;
+            var num = 0;
+            while(temp > 0){
+                var rem = parseInt(temp % 10);
+                num = num * 10 + rem;
+                temp = parseInt(temp / 10);
+            }
+            if(num == v){
+                alert("it is palindrome");
+            }else{
+                alert("it is not palindrome");
+            }
+        </script>
+    </body>
+</html>
